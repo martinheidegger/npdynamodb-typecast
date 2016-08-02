@@ -22,10 +22,12 @@
     "url": "https://github.com/noppoMan/npdynamodb-typecast/issues"
   },
   "homepage": "https://github.com/noppoMan/npdynamodb-typecast",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.1"
+  },
   "devDependencies": {
     "aws-sdk": "^2.1.42",
-    "bluebird": "^2.9.34",
-    "lodash": "^3.10.1",
     "npdynamodb": "^0.2.5"
   }
 }
